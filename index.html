@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convertidor 💰</title>
+</head>
+<body style="background-color: blanchedalmond;">
+    <div></div>
+    <div>
+        <center><h3 >Conversor de divisas 💰</h3></center>
+        <hr style="border-top:1px dotted #000;"/>
+        <div ></div>
+        <div >
+            <center><form method="POST" action="app.php">
+                <div>
+                    <select name="val">
+                        <option value="">Selecciona su divisa 🤑💵</option>
+                        <option value="USD">USD 🗽</option>
+                        <option value="Euro">Euro 🏰</option>
+                        <option value="GBP">Libra esterlina ⛪</option>
+                        <option value="Yen">Yen Japones 🗼</option>
+                    </select>
+                    <input type="number" name="digit" min="0" value="0" step="0.01"/>
+                </div>	
+                <br />
+                <div>
+                    <label>Selecciona divisa de cambio 💶: </label>
+                    <select name="currency" required="required">
+                        <option value="">Select an option</option>
+                        <option value="USD">USD 🗽</option>
+                        <option value="Euro">Euro 🏰</option>
+                        <option value="GBP">Libra esterlina ⛪</option>
+                        <option value="Yen">Yen Japones 🗼</option>
+                    </select>
+                    <br /><br />
+                    <button type="submit" name="convert" style="width:30%;">Convertir</button>
+                    <br />
+                </div>	
+            </form></center>
+        </div>
+    </div>
+</body>
+</html>
